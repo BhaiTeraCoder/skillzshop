@@ -50,3 +50,30 @@ D:\software development\skillshop-1\skillzshop\skillzshop\obj\Debug\net6.0\refin
 D:\software development\skillshop-1\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.pdb
 D:\software development\skillshop-1\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.genruntimeconfig.cache
 D:\software development\skillshop-1\skillzshop\skillzshop\obj\Debug\net6.0\ref\skillzshop.dll
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\appsettings.json
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\skillzshop.staticwebassets.runtime.json
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\skillzshop.exe
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\skillzshop.deps.json
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\skillzshop.runtimeconfig.json
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\skillzshop.dll
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\skillzshop.pdb
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.csproj.AssemblyReference.cache
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.AssemblyInfoInputs.cache
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.AssemblyInfo.cs
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.csproj.CoreCompileInputs.cache
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.RazorAssemblyInfo.cache
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.RazorAssemblyInfo.cs
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\scopedcss\bundle\skillzshop.styles.css
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\scopedcss\projectbundle\skillzshop.bundle.scp.css
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.dll
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\refint\skillzshop.dll
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.pdb
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\skillzshop.genruntimeconfig.cache
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\obj\Debug\net6.0\ref\skillzshop.dll
+C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\bin\Debug\net6.0\libman.json
