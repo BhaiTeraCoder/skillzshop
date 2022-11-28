@@ -36,9 +36,7 @@ stages:
         arguments: '--configuration $(buildConfiguration)'
 
     - task: DotNetCoreCLI@2
-      inputs:
-      env:
-        
+      inputs:        
         command: publish
         publishWebProjects: True
         arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
@@ -55,5 +53,4 @@ stages:
   - job: Deploy
     pool:
       vmImage: 'vs2017-win2016'
-    steps:
 
