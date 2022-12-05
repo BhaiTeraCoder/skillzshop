@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using skillzshop.Data;
 
 namespace skillzshop.Controllers
@@ -12,8 +13,9 @@ namespace skillzshop.Controllers
         }
         public IActionResult Index()
         {
-            var allSkills = _context.Skills.ToList();
-            return View(allSkills);
+            //var allSkills = _context.Skills.ToList();
+            var allSkills = _context.Skills.Include(c => c.Category);
+            return View(allSkills.ToList());
         }
     }
 }

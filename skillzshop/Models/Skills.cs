@@ -15,10 +15,13 @@ namespace skillzshop.Models
         public string? Description { get; set; }
         public double? Price { get; set; }
 
+        public string? SellerName { get; set; }
+        public double? Rating { get; set; }
+
         //Relationships Category
         public int CategoryId  { get; set; }
         [ForeignKey("CategoryId")]
-        public Category? Category { get; set; }
+        public virtual Category? Category { get; set; }
 
     }
 }

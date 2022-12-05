@@ -1,5 +1,6 @@
 ﻿@model List<Skills>
 
+
 @*Define View Data*@
 
 <form class="d-flex" role="search">
@@ -13,7 +14,7 @@
             {
                 @foreach (var item in Model)
                 {
-                    <li><a class="dropdown-item" href="#">@Html.DisplayFor(model => item.Category)</a></li>
+                    <li><a class="dropdown-item" href="#">@Html.DisplayFor(model => item.Category.Name)</a></li>
                 }
             }
         </ul>
@@ -31,8 +32,8 @@
                     <p class="card-text" style="height: 100px; width:15rem; overflow: hidden; text-overflow: ellipsis;">@Html.DisplayFor(model => item.Description)</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><i class="fa-solid fa-user"></i> Poster Name</li>
-                    <li class="list-group-item"><i class="fa-solid fa-list"></i> @Html.DisplayFor(model => item.Category)</li>
+                    <li class="list-group-item"><i class="fa-solid fa-user"></i>@Html.DisplayFor( model => item.SellerName)</li>
+                    <li class="list-group-item"><i class="fa-solid fa-list"></i> @Html.DisplayFor(model => item.Category.Name)</li>
                     <li class="list-group-item"><i class="fa-solid fa-tag"></i> @Html.DisplayFor(model => item.Price)</li>
                     <li class="list-group-item">
                         <i class="fa-solid fa-star"></i>
