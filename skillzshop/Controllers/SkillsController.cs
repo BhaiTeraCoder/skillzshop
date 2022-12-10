@@ -35,5 +35,13 @@ namespace skillzshop.Controllers
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
+
+        //Get: Skills/Details/1
+        public async Task<IActionResult> Details(int id)
+        {
+            var skillDetails = await _context.Skills.FirstOrDefaultAsync(n => n.SkillId == id);
+            if (skillDetails == null) return View("Empty");
+            return View(skillDetails);
+        }
     }
 }

@@ -44,6 +44,10 @@
                 <div class="card-body">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="button" style="margin-left: 20px"><i class="fa-sharp fa-solid fa-store"></i> Buy Skill</button>
                     <button class="btn btn-outline-success my-2 my-sm-0" type="button" style="margin-left: 20px"><i class="fa-solid fa-eye"></i></button>
+                <!--Added by Jitin, feel free to correct and modify-->
+                <a class=" btn btn-outline-info my-2 my-sm-0" type="button" style="margin-left: 20px" asp-controller="Skills" asp-action="Details" asp-route-id="@item.SkillId">
+                        <i class="fa-solid fa-eye"></i>
+                    </a>
                 </div>
             </div>
         }
