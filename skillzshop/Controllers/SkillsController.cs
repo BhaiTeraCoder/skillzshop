@@ -27,12 +27,12 @@ namespace skillzshop.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([Bind("Name", "Description", "Price", "SellerName", "CategoryId")]Skills skill)
         {
-            //if (!ModelState.IsValid)
-           // {
-          //      return View(skill);
-          //  }
-          //  _context.Add(skill);
-          //  _context.SaveChanges();
+            if (!ModelState.IsValid)
+            {
+                return View(skill);
+            }
+            _context.Add(skill);
+            _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
     }
