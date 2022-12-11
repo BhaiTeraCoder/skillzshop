@@ -19,6 +19,19 @@ namespace skillzshop.Controllers
             return View(allSkills.ToList());
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Index(String NameSearch)
+        {
+            ViewData["getSkill"] = NameSearch;
+
+            var skillquery = from x in _context.Skills select x;
+            if (!String.IsNullOrWhiteSpace(NameSearch))
+            {
+                skillquery = skillquery.Where(x => x.Name.Contains(NameSearch));
+            }
+            return View(await skillquery.AsNoTracking().ToListAsync());
+        }
+
         public IActionResult Create()
         {
             return View();
