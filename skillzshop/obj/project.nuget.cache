@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+EFbGuWHI/WmbzUo0FT69OcR0sM32i16KXi/1o7cw0DDzqHfsN1CM0WOSt3AjneMNTj9PBWyZv3qktvFwg6Xbg==",
+  "dgSpecHash": "7VaGn1ZAhz04npZazR1cSS6dq4PVC0fnef+cf0mZRYPpkkfKmDy5I23uXSlZNNKoqs3+iaYhRG+3IuYwCqrxIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acduquinal\\source\\repos\\skillzshop\\skillzshop\\skillzshop.csproj",
+  "projectFilePath": "C:\\Users\\acduquinal\\Source\\Repos\\skillzshop\\skillzshop\\skillzshop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acduquinal\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\acduquinal\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
