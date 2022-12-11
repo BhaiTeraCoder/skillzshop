@@ -11,18 +11,16 @@
     </p>
     <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
     <div class="dropdown" style="margin-right: 5px;">
-        <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Select Category
-        </button>
-        <ul class="dropdown-menu">
+        <select class="form-select" style="width: 200px">
+            <option selected>Select Category</option>
             @if (Model != null)
             {
-                @foreach (var item in Model)
+                @foreach (var item in Model.GroupBy(m => m.Category.Name).Select(g => g.First()))
                 {
-                    <li><a class="dropdown-item" href="#">@Html.DisplayFor(model => item.Category.Name)</a></li>
+                    <option value="@Html.DisplayFor(model => item.Category.Name)"><a class="dropdown-item" href="#">@Html.DisplayFor(model => item.Category.Name)</a></option>
                 }
             }
-        </ul>
+        </select>
     </div>
     <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
 </form>
@@ -37,20 +35,21 @@
                     <p class="card-text" style="height: 100px; width:15rem; overflow: hidden; text-overflow: ellipsis;">@Html.DisplayFor(model => item.Description)</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><i class="fa-solid fa-user"></i>@Html.DisplayFor( model => item.SellerName)</li>
+                    <li class="list-group-item"><i class="fa-solid fa-user"></i> @Html.DisplayFor( model => item.SellerName)</li>
                     <li class="list-group-item"><i class="fa-solid fa-list"></i> @Html.DisplayFor(model => item.Category.Name)</li>
                     <li class="list-group-item"><i class="fa-solid fa-tag"></i> @Html.DisplayFor(model => item.Price)</li>
                     <li class="list-group-item">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        @for (int i = 0; i < Convert.ToInt32(item.Rating); i++)
+                        {
+                            <i class="fa-solid fa-star"></i>
+                        }
                     </li>
                 </ul>
                 <div class="card-body">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="button" style="margin-left: 20px"><i class="fa-sharp fa-solid fa-store"></i> Buy Skill</button>
                     @*<button class="btn btn-outline-success my-2 my-sm-0" type="button" style="margin-left: 20px"><i class="fa-solid fa-eye"></i></button>*@
-                <!--Added by Jitin, feel free to correct and modify-->
-                <a class=" btn btn-outline-info my-2 my-sm-0" type="button" style="margin-left: 20px" asp-controller="Skills" asp-action="Details" asp-route-id="@item.SkillId">
+                    <!--Added by Jitin, feel free to correct and modify-->
+                    <a class=" btn btn-outline-info my-2 my-sm-0" type="button" style="margin-left: 20px" asp-controller="Skills" asp-action="Details" asp-route-id="@item.SkillId">
                         <i class="fa-solid fa-eye"></i>
                     </a>
                 </div>

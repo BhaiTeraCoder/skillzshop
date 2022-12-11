@@ -45,6 +45,8 @@ namespace skillzshop.Data
                         {
                             Name = "Bread Making class",
                             Description = "I am a Professional chef and teach baking",
+                            SellerName = "John Doe",
+                            Rating = 5,
                             Price = 100,
                             CategoryId = 1
 
@@ -53,6 +55,8 @@ namespace skillzshop.Data
                         {
                             Name = "Pastry Making class",
                             Description = "I am a Professional chef and teach Pastries",
+                            SellerName = "Michelle Smith",
+                            Rating = 5,
                             Price = 170,
                             CategoryId = 1
 
@@ -61,6 +65,8 @@ namespace skillzshop.Data
                         {
                             Name = "Cake Making class",
                             Description = "I am a Professional chef and teach backing cakes",
+                            SellerName = "Mike Turner",
+                            Rating = 3,
                             Price = 100,
                             CategoryId = 1
                         },
@@ -68,6 +74,8 @@ namespace skillzshop.Data
                         {
                             Name = "Acoustic Guitar playing",
                             Description = "I am a Professional Guitar player and teach Guitars",
+                            SellerName = "Sam Client",
+                            Rating = 2,
                             Price = 150,
                             CategoryId = 2
                         },
@@ -75,6 +83,8 @@ namespace skillzshop.Data
                         {
                             Name = "Bass Guitar playing",
                             Description = "I am a Professional Guitar player and teach Bass guitars",
+                            SellerName = "Tin Stone",
+                            Rating = 4,
                             Price = 350,
                             CategoryId = 2
                         },
@@ -82,6 +92,8 @@ namespace skillzshop.Data
                         {
                             Name = "Lead Guitar playing",
                             Description = "I am a Professional Guitar player and teach Lead guitars",
+                            SellerName = "Sandy Colleen",
+                            Rating = 4,
                             Price = 50,
                             CategoryId = 2
                         },
@@ -89,6 +101,8 @@ namespace skillzshop.Data
                         {
                             Name = "Learn English",
                             Description = "I am an Language teacher and teach English",
+                            SellerName = "Trisha Jane",
+                            Rating = 3,
                             Price = 90,
                             CategoryId = 3
                         },
@@ -96,6 +110,8 @@ namespace skillzshop.Data
                         {
                             Name = "Learn French",
                             Description = "I am an Language teacher and teach French",
+                            SellerName = "Felix Dane",
+                            Rating = 2,
                             Price = 190,
                             CategoryId = 3
                         }
