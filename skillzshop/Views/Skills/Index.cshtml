@@ -3,27 +3,25 @@
 
 @*Define View Data*@
 
-<form class="d-flex" method ="get" asp-action ="Index">
-    <p>
-        <input type = "search" placeholder = "Enter skill name.." value = "@ViewData["getSkill"]" name = "NameSearch" style = "width:500px;" />
-        <input type = "submit" value = "Search" class = "btn btn-primary" />
-        <a asp-action = "Index">Get all skills</a>
-    </p>
-    <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-    <div class="dropdown" style="margin-right: 5px;">
-        <select class="form-select" style="width: 200px">
-            <option selected>Select Category</option>
-            @if (Model != null)
-            {
-                @foreach (var item in Model.GroupBy(m => m.Category.Name).Select(g => g.First()))
-                {
-                    <option value="@Html.DisplayFor(model => item.Category.Name)"><a class="dropdown-item" href="#">@Html.DisplayFor(model => item.Category.Name)</a></option>
-                }
-            }
-        </select>
-    </div>
-    <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+<form class="d-flex" method="get" asp-action="Index">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" placeholder="Enter skill name.." value="@ViewData["getSkill"]" name="NameSearch">
+    @*<div class="dropdown" style="margin-right: 5px;">
+    <select class="form-select" style="width: 200px">
+    <option selected>Select Category</option>
+    @if (Model != null)
+    {
+    @foreach (var item in Model)
+    {
+    <option value="@Html.DisplayFor(model => item.Category)"><a class="dropdown-item" href="#">@Html.DisplayFor(model => item.Category.Name)</a></option>
+    }
+    }
+    </select>
+    </div>*@
+    <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
 </form>
+<a asp-action="Index">
+    <button class="btn btn-outline-success" type="submit" style="margin-top: 20px">Show All Skills</i></button>
+</a>
 <div class="row" style="align-content: center;">
     @if (Model != null)
     {
@@ -36,8 +34,8 @@
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><i class="fa-solid fa-user"></i> @Html.DisplayFor( model => item.SellerName)</li>
-                    <li class="list-group-item"><i class="fa-solid fa-list"></i> @Html.DisplayFor(model => item.Category.Name)</li>
-                    <li class="list-group-item"><i class="fa-solid fa-tag"></i> @Html.DisplayFor(model => item.Price)</li>
+                    @*<li class="list-group-item"><i class="fa-solid fa-list"></i> @Html.DisplayFor(model => item.Category.Name)</li>*@
+                    <li class="list-group-item"><i class="fa-solid fa-tag"></i> $@Html.DisplayFor(model => item.Price)</li>
                     <li class="list-group-item">
                         @for (int i = 0; i < Convert.ToInt32(item.Rating); i++)
                         {
