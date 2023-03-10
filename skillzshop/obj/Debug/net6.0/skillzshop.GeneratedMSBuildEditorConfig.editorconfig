@@ -8,117 +8,125 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = skillzshop
 build_property.RootNamespace = skillzshop
-build_property.ProjectDir = C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop\
+build_property.ProjectDir = C:\Users\student\Documents\Semester5\Software development project 1\skillzshop\skillzshop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\acduquinal\Source\Repos\skillzshop\skillzshop
+build_property.MSBuildProjectDirectory = C:\Users\student\Documents\Semester5\Software development project 1\skillzshop\skillzshop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Home/Index.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Orders/Checkout.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Orders/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Orders/Index.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Shared/Error.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Payment/Thankyou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxUaGFua3lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Skills/Create.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Skills/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Skills/Details.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Skills/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Skills/Index.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Skills/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Skills/Search.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Skills/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxzXFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/_ViewImports.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/_ViewStart.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/acduquinal/Source/Repos/skillzshop/skillzshop/Views/Shared/_Layout.cshtml]
+[C:/Users/student/Documents/Semester5/Software development project 1/skillzshop/skillzshop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qcjtspi7dh
