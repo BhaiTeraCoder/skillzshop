@@ -14,10 +14,7 @@ namespace skillzshop.Controllers
         }
         public IActionResult Purchase(int skillId)
         {
-            // Code to process payment and complete purchase goes here
-            // You could use a payment gateway API, like Stripe or PayPal, to handle the payment process
-
-            // Redirect the user to a thank you page after the purchase is complete
+            // Code to process payment and complete purchase
             return RedirectToAction("ThankYou", "Payment");
         }
 
