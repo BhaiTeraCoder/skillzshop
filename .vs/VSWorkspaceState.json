@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\skillzshop"
+    "\\skillzshop",
+    "\\skillzshop\\Controllers",
+    "\\skillzshop\\Data",
+    "\\skillzshop\\Migrations",
+    "\\skillzshop\\Models",
+    "\\skillzshop\\Views",
+    "\\skillzshop\\Views\\Home"
   ],
-  "SelectedNode": "\\skillzshop\\skillzshop.sln",
   "PreviewInSolutionExplorer": false
 }
